@@ -1,4 +1,3 @@
-#
 from datetime import datetime, timedelta
 from csv import DictReader, DictWriter
 from collections import defaultdict
@@ -105,5 +104,3 @@ if __name__ == '__main__':
     # Print the data written to the outfile
     with open(OUTFILE) as f:
         print(f.read())
-		
-	----------------------------------------------------
